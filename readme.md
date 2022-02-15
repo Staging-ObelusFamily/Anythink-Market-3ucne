@@ -6,4 +6,6 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 
 ## Development
 
+Please create the environment variables file config/local_env.yml and add a key called DATABASE_URL that is pointing to your local postgres db
+
 When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
