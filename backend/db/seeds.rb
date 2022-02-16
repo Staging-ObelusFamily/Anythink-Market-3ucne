@@ -11,7 +11,7 @@ require 'date'
 # using for loop with the range
 for i in 1..100 do
  newUser = User.create!(
-    email: "user#{i}@gmail.com",
+    email: "user_#{i}@gmail.com",
     password: "Shnilik2912",
     username: "CoolNickName#{i}",
     created_at: DateTime.now(),
