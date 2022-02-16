@@ -2,7 +2,7 @@ module Event
   def sendEvent(eventName, metadata)
     wilcoId = File.read("../.wilco")
     conn = Faraday.new(
-      url: "http://localhost:3002/users/#{wilcoId}/",
+      url: "https://wilco-engine.herokuapp.com/users/#{wilcoId}/",
       headers: {'Content-Type' => 'application/json'}
     )
 
